@@ -1,0 +1,37 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+caption{
+    caption-side: top;
+    text-align: center;
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+    width: 6cm;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+}
+.year{
+    width: 3.6cm;
+}
+.italy{
+    color: white;
+    background: #33cc66;
+}
+.neutralstates{
+    text-align: left;
+}
+.lastyear{
+    border: 6px double black;
+    color: blue;
+}

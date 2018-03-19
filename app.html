@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
-        <title>форма нужно подумать</title>
-        <!--<link href="app.css" rel="stylesheet">-->
+        <title>form</title>
+        <link href="app.css" rel="stylesheet">
     </head>
     <body>
         <form  action="" method="post">
-            <div>
-                <input type="text" name="name" id="name" placeholder="Votre nom">
+            <div class="line">
+
+                    <input class="name-img" type="text" name="name" id="name" placeholder="Votre nom">
+
+            </div>
+            <br>
+            <div class="line">
+                <input class="email-img" type="text" name="email" placeholder="Votre email">
             </div>
             <br>
             <div>
-                <input type="text" name="email" placeholder="Votre email">
-            </div>
-            <br>
-            <div>
-                <textarea name="message" rows="10" cols="100" placeholder="Votre message">
+                <textarea class="message-img" name="message" rows="10" cols="100" placeholder="Votre message">
 
                 </textarea>
             </div>
-            <div>
-                <input type="submit" name="envoyer" value="envoyer">
+            <div >
+                <input class="button" type="submit" name="envoyer" value="envoyer">
             </div>
         </form>
 

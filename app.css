@@ -1,5 +1,27 @@
-#name {
-    background: url("/img/icon-user.png") no-repeat scroll 10px 5px;
-    padding-left: 40px;
-    background-size: 20px 20px;
+
+.name-img {
+    /*background: url("./img/icon-user.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left;*/
+    width: 450px;
+    height: 40px;
+
+}
+.email-img{
+    /*background: url("./img/icon-email.png.");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left;*/
+    width: 100px;
+    height:50px ;
+}
+.message-img{
+    /*background: url("./img/icon-message.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left;*/
+}
+.button{
+    background: #33cc66;
+    color: white;
+    width: 1000px;
+    height: 40px;
 }
