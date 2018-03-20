@@ -1,22 +1,22 @@
-table{
+.table{
     border: 1px solid black;
     border-collapse: collapse;
 
 }
 
-caption{
+.caption{
     caption-side: top;
     text-align: center;
 }
 
-th{
+.th{
     border: 1px solid black;
     text-align: center;
     vertical-align: center;
     width: 6cm;
 }
 
-td{
+.td{
     border: 1px solid black;
     text-align: center;
     vertical-align: center;
