@@ -1,27 +1,44 @@
+div {
+    /*margin-bottom: 10px;*/
+    padding: 20px 20px 20px 20px;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+
+    clear: both;
+}
 
 .name-img {
-    /*background: url("./img/icon-user.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: left;*/
-    width: 450px;
-    height: 40px;
+    background: url("./img/icon-user.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    /*width: 450px;*/
+    /*height: 40px;*/
 
 }
 .email-img{
-    /*background: url("./img/icon-email.png.");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: left;*/
-    width: 100px;
-    height:50px ;
+    background: url("./img/icon-email.png.");
+    background-repeat: no-repeat;
+    background-position: left;
+    /*width: 100px;*/
+    /*height:50px ;*/
 }
 .message-img{
-    /*background: url("./img/icon-message.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: left;*/
+    background: url("./img/icon-message.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    resize: none;
 }
 .button{
     background: #33cc66;
     color: white;
-    width: 1000px;
+    width: 300px;
     height: 40px;
 }
