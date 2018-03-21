@@ -1,9 +1,12 @@
+.div{
+    margin: 10px 10px;
+}
+.message{
+    resize: none;
+}
 .button {
     background: #33cc66;
     color: white;
     width: 200px;
     height: 40px;
-}
-.message{
-    resize: none;
 }

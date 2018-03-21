@@ -1,21 +1,17 @@
 .table{
     border: 1px solid black;
     border-collapse: collapse;
-
 }
-
 .caption{
     caption-side: top;
     text-align: center;
 }
-
 .th{
     border: 1px solid black;
     text-align: center;
     vertical-align: center;
     width: 6cm;
 }
-
 .td{
     border: 1px solid black;
     text-align: center;
