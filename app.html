@@ -1,27 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>form</title>
-        <link href="app1.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Caption</title>
+        <link href="css/style.css" rel="stylesheet">
     </head>
-    <body>
-        <form action="" method="post">
-            <div class="div">
-                    <input type="text" name="name" placeholder="Votre nom">
+    <body class="body">
+        <div class="toppage" id="toppage">
+            <div class="center-toppage">
+                <div class="logonav">
+                    <a class="logo" href="#toppage"></a>
+                    <div>
+                        <nav class="navigation">
+                            <a class="accueil" href="">Accueil</a>
+                            <a class="portfolio" href="">Portfolio</a>
+                            <a class="about" href="">About</a>
+                            <a class="contact" href="">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="textbutton">
+                    <header>
+                        <h1 class="h1">VOICI VOTRE PROCHAIN PORTFOLIO</h1>
+                    </header>
+                    <h2 class="h2">UN TEMPLATE PSD SIMPLE ET GRATUIT</h2>
+                    <button class="button" href="">MES TRAVAUX</button>
+                </div>
             </div>
-            <div class="div">
+        </div>
+        <form action="" method="post" class="center-form">
+            <div class="form">
+                <input type="text" name="name" placeholder="Votre nom">
+            </div>
+            <div class="form">
                 <input type="text" name="email" placeholder="Votre email">
             </div>
-            <div class="div">
+            <div class="form">
                 <textarea class="message" name="message" rows="10" cols="30" placeholder="Votre message"></textarea>
             </div>
-            <div class="div">
-                <input class="button" type="submit" name="envoyer" value="envoyer">
+            <div class="form">
+                <input class="button-form" type="submit" name="envoyer" value="envoyer">
             </div>
         </form>
-        <p>
-            <a href="table/table.html">Таблица</a>
-        </p>
+    <div class="footer">
+        <div class="center-footer">
+           <div class="copyright"><p>Copyright©2015 by beneggen – <span class="bold">www.beneggen.fr</span></p></div>
+
+            <ul class="social">
+                <li class="twitter li"><a class="link" href=""></a></li>
+                <li class="linkedin li"><a class="link" href=""></a></li>
+                <li class="ball li"><a class="link" href=""></a></li>
+                <li class="be li"><a class="link" href=""></a></li>
+            </ul>
+        </div>
+    </div>
     </body>
 </html>

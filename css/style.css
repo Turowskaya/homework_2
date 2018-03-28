@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Lato bold";
+    src: url("../font/9622.ttf");
+}
+@font-face {
+    font-family: "Big John";
+    src: url("../font/BigJohn.otf");
+}
+@font-face {
+    font-family: "Slim Joe";
+    src: url("../font/SlimJoe.otf");
+}
+.body{
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+}
+.toppage{
+    height: 620px;
+    background-image: url("../img/computer.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 0;
+}
+.center-toppage,
+.center-footer,
+.center-form{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logonav{
+    height: 99px;
+    padding-top: 90px;
+}
+.logo{
+    height: 99px;
+    width: 174px;
+    display: block;
+    background: url("../img/foliac-logo.png");
+    float: left;
+
+}
+.navigation{
+    height: 99px;
+    width: 700px;
+    color: white;
+    float: right;
+    padding-top: 50px;
+}
+.accueil,
+.portfolio,
+.about,
+.contact{
+    color: white;
+    padding-left: 55px;
+    font-family: "Lato bold";
+    font-size: 20px;
+    text-decoration: none;
+}
+.portfolio:before,
+.about:before,
+.contact:before{content: "/";
+    padding-right: 55px;
+}
+.textbutton{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+
+}
+h1{
+    font-family: "Big John";
+    font-size: 46px;
+}
+h2{
+    font-family: "Slim Joe";
+    font-size: 30px;
+}
+.button{
+    width: 140px;
+    height: 40px;
+    color: #33cc66;
+    font-family: "Lato bold";
+    font-size: 14px;
+    border: 1px #33cc66 solid;
+    background-image: none;
+    background-color: transparent;
+}
+.form{
+    margin: 10px 10px;
+}
+.message {
+    resize: none;
+}
+.button-form {
+    background: #33cc66;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+.footer{
+    height: 200px;
+    background: #3c4955;
+}
+.copyright{
+    color: white;
+    font-family: "Lato bold";
+    font-size: 20px;
+    padding-top: 80px;
+    float: left;
+}
+.bold{
+    font-weight: bold;
+}
+.social{
+    width: 400px;
+    height: 55px;
+    position: relative;
+    padding-top: 70px;
+    float: right;
+}
+.li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    top: 0;
+    float: left;
+    display: block;
+    margin-right: 40px;
+    height:55px;
+    width: 50px;
+}
+.link{
+    height: 55px;
+    width: 50px;
+    display: block;
+    margin-right: 40px;
+}
+.twitter{
+   background: url("../img/social.png") 0 0;
+}
+.linkedin{
+    background: url("../img/social.png") -90px 0;
+}
+.ball{
+   background: url("../img/social.png") -180px 0;
+}
+.be{
+   background: url("../img/social.png") -266px 0;
+}
