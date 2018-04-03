@@ -2,57 +2,84 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Caption</title>
+        <title>Model</title>
+        <link href="css/reset.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/comp.css" rel="stylesheet">
     </head>
-    <body class="body">
-        <div class="toppage" id="toppage">
-            <div class="center-toppage">
-                <div class="logonav">
-                    <a class="logo" href="#toppage"></a>
-                    <div>
-                        <nav class="navigation">
-                            <a class="accueil" href="">Accueil</a>
-                            <a class="portfolio" href="">Portfolio</a>
-                            <a class="about" href="">About</a>
-                            <a class="contact" href="">Contact</a>
-                        </nav>
+    <body>
+        <div class="model">
+            <header class="head" id="head">
+                <div class="container">
+                    <div class="logonav">
+                        <a class="logo" href="#head"></a>
+                        <div>
+                            <nav class="navigation">
+                                <a class="navigation_link item" href="">Accueil</a>
+                                <a class="navigation_link item" href="">Portfolio</a>
+                                <a class="navigation_link item" href="">About</a>
+                                <a class="navigation_link" href="">Contact</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="titlepage">
+                        <h1 class="h1">voici votre prochain portfolio</h1>
+                        <h2 class="h2">un template psd simple et gratuit</h2>
+                        <button class="head_button" href="">mes travaux</button>
                     </div>
                 </div>
-                <div class="textbutton">
-                    <header>
-                        <h1 class="h1">VOICI VOTRE PROCHAIN PORTFOLIO</h1>
-                    </header>
-                    <h2 class="h2">UN TEMPLATE PSD SIMPLE ET GRATUIT</h2>
-                    <button class="button" href="">MES TRAVAUX</button>
+            </header>
+            <div class="portfolio">
+                <div class="container">
+                    <ul class="portfolio_list">
+                        <li class="unit_list"><button class="portfolio_button">Tous les projets</button></li>
+                        <li class="unit_list"><button class="portfolio_button">Webdesign</button></li>
+                        <li class="unit_list"><button class="portfolio_button">UI/UX design</button></li>
+                        <li class="unit_list"><button class="portfolio_button">Illustration</button></li>
+                        <li class="unit_list"><button class="portfolio_button">Motion</button></li>
+                    </ul>
+                    <div class="items">
+                        <div class="itemrow1">
+                            <div class="item_1 image"><img src="img/item1.png"></div>
+                            <div class="item_2 image"><img src="img/item2.png"></div>
+                        </div>
+                        <div class="itemrow2">
+                            <div class="item_3 image"><img src="img/item3.png"></div>
+                            <div class="item_4 image"><img src="img/item4.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="container">
+
+                </div>
+            </div>
+            <form action="" method="post" class="container">
+                <div class="form">
+                    <input type="text" name="name" placeholder="Votre nom">
+                </div>
+                <div class="form">
+                    <input type="text" name="email" placeholder="Votre email">
+                </div>
+                <div class="form">
+                    <textarea class="message" name="message" rows="10" cols="30" placeholder="Votre message"></textarea>
+                </div>
+                <div class="form">
+                    <input class="button-form" type="submit" name="envoyer" value="envoyer">
+                </div>
+            </form>
+            <div class="down">
+                <div class="container">
+                   <div class="copyright"><p>Copyright©2015 by beneggen – <span class="bold">www.beneggen.fr</span></p></div>
+                    <ul class="social">
+                        <li class="twitter lip"><a class="link" href=""></a></li>
+                        <li class="linkedin lip"><a class="link" href=""></a></li>
+                        <li class="ball lip"><a class="link" href=""></a></li>
+                        <li class="be lip"><a class="link" href=""></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <form action="" method="post" class="center-form">
-            <div class="form">
-                <input type="text" name="name" placeholder="Votre nom">
-            </div>
-            <div class="form">
-                <input type="text" name="email" placeholder="Votre email">
-            </div>
-            <div class="form">
-                <textarea class="message" name="message" rows="10" cols="30" placeholder="Votre message"></textarea>
-            </div>
-            <div class="form">
-                <input class="button-form" type="submit" name="envoyer" value="envoyer">
-            </div>
-        </form>
-    <div class="footer">
-        <div class="center-footer">
-           <div class="copyright"><p>Copyright©2015 by beneggen – <span class="bold">www.beneggen.fr</span></p></div>
-
-            <ul class="social">
-                <li class="twitter li"><a class="link" href=""></a></li>
-                <li class="linkedin li"><a class="link" href=""></a></li>
-                <li class="ball li"><a class="link" href=""></a></li>
-                <li class="be li"><a class="link" href=""></a></li>
-            </ul>
-        </div>
-    </div>
     </body>
 </html>

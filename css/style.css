@@ -10,25 +10,26 @@
     font-family: "Slim Joe";
     src: url("../font/SlimJoe.otf");
 }
-.body{
-    margin: 0;
-    padding: 0;
-    width: 1920px;
-}
-.toppage{
+/*.body{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*width: 1920px;*/
+/*}*/
+.head{
     height: 620px;
     background-image: url("../img/computer.png");
     background-repeat: no-repeat;
     background-position: center top;
     margin-top: 0;
 }
-.center-toppage,
-.center-footer,
-.center-form{
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/*.center-toppage,*/
+/*.center-footer,*/
+/*.center-form*/
+/*.container{*/
+    /*width: 1140px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+/*}*/
 .logonav{
     height: 99px;
     padding-top: 90px;
@@ -48,44 +49,50 @@
     float: right;
     padding-top: 50px;
 }
-.accueil,
-.portfolio,
-.about,
-.contact{
+.navigation_link{
     color: white;
     padding-left: 55px;
-    font-family: "Lato bold";
+    font-family: "Lato bold", sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
-.portfolio:before,
-.about:before,
-.contact:before{content: "/";
-    padding-right: 55px;
+.item:after{
+    content: "/";
+    padding-left: 55px;
+    color: #58626a;
 }
-.textbutton{
+.titlepage{
     color: white;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
     text-align: center;
+    margin-top: 160px;
 
 }
 h1{
-    font-family: "Big John";
+    font-family: "Big John", sans-serif;
     font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 h2{
-    font-family: "Slim Joe";
+    font-family: "Slim Joe", sans-serif;
     font-size: 30px;
+    padding-top: 30px;
+    text-transform: uppercase;
 }
-.button{
+.head_button{
     width: 140px;
     height: 40px;
     color: #33cc66;
-    font-family: "Lato bold";
+    font-family: "Lato bold", sans-serif;
     font-size: 14px;
+    font-weight: bold;
     border: 1px #33cc66 solid;
     background-image: none;
     background-color: transparent;
+    border-radius: 3px;
+    margin-top: 50px;
+    text-transform: uppercase;
 }
 .form{
     margin: 10px 10px;
@@ -99,13 +106,14 @@ h2{
     width: 200px;
     height: 40px;
 }
-.footer{
+/*footer*/
+.down{
     height: 200px;
     background: #3c4955;
 }
 .copyright{
     color: white;
-    font-family: "Lato bold";
+    font-family: "Lato bold", sans-serif;;
     font-size: 20px;
     padding-top: 80px;
     float: left;
@@ -120,7 +128,7 @@ h2{
     padding-top: 70px;
     float: right;
 }
-.li{
+.lip{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -149,4 +157,65 @@ h2{
 }
 .be{
    background: url("../img/social.png") -266px 0;
+}
+/*Портфолио*/
+
+.portfolio{
+    height: 1050px;
+    background: white;
+    position: relative;
+    top: 0;
+}
+.portfolio_list{
+    height: 32px;
+    width: 665px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.portfolio_button{
+    list-style: none;
+    position: relative;
+    font-size: 16px;
+    font-family: "Lato bold", sans-serif;
+    padding: 10px 16px;
+    margin-left: 15px;
+    float: left;
+    border-radius: 2px;
+    border: #eaeaea;
+    background: #eaeaea;
+    color: rgb(60,73,85);
+    font-weight: bold;
+}
+.items{
+    position: relative;
+    top:50px;
+}
+.image{
+    width: 100%;
+}
+.itemrow1{
+    float:left;
+
+}
+.itemrow2{
+    float: right;
+    /*position: absolute;*/
+}
+.item_1,
+.item_3{
+    padding-bottom: 40px;
+}
+.portfolio_button:hover{
+    content: '';
+    background: #33cc66;
+    color: white;
+}
+/*Мужчина*/
+.about{
+    height: 500px;
+    background: url("../img/men-computer (4).png")  no-repeat;
+    background-color: #3c4955;
+    background-blend-mode: multiply;
 }
