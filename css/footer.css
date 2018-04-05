@@ -1,0 +1,51 @@
+.down{
+    height: 200px;
+    background: #3c4955;
+}
+.copyright{
+    color: white;
+    font-family: "Lato bold", sans-serif;;
+    font-size: 20px;
+    padding-top: 80px;
+    float: left;
+}
+.bold{
+    font-weight: bold;
+}
+.social{
+    width: 400px;
+    height: 55px;
+    position: relative;
+    padding-top: 70px;
+    float: right;
+}
+.lip{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    top: 0;
+    float: left;
+    display: block;
+    margin-right: 40px;
+    height:55px;
+    width: 50px;
+}
+.link{
+    height: 55px;
+    width: 50px;
+    display: block;
+    margin-right: 40px;
+}
+.twitter{
+    background: url("../img/social.png") 0 0;
+}
+.linkedin{
+    background: url("../img/social.png") -90px 0;
+}
+.ball{
+    background: url("../img/social.png") -180px 0;
+}
+.be{
+    background: url("../img/social.png") -266px 0;
+}

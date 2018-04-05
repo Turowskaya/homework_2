@@ -10,6 +10,10 @@
     font-family: "Slim Joe";
     src: url("../font/SlimJoe.otf");
 }
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../font/Lato-Bold.ttf");
+}
 /*.body{*/
     /*margin: 0;*/
     /*padding: 0;*/
@@ -22,14 +26,6 @@
     background-position: center top;
     margin-top: 0;
 }
-/*.center-toppage,*/
-/*.center-footer,*/
-/*.center-form*/
-/*.container{*/
-    /*width: 1140px;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-/*}*/
 .logonav{
     height: 99px;
     padding-top: 90px;
@@ -68,13 +64,13 @@
     margin-top: 160px;
 
 }
-h1{
+.head_text1{
     font-family: "Big John", sans-serif;
     font-size: 46px;
     font-weight: bold;
     text-transform: uppercase;
 }
-h2{
+.head_text2{
     font-family: "Slim Joe", sans-serif;
     font-size: 30px;
     padding-top: 30px;
@@ -94,6 +90,7 @@ h2{
     margin-top: 50px;
     text-transform: uppercase;
 }
+/*форма печаль*/
 .form{
     margin: 10px 10px;
 }
@@ -216,6 +213,68 @@ h2{
 .about{
     height: 500px;
     background: url("../img/men-computer (4).png")  no-repeat;
-    background-color: #3c4955;
+    background-color: rgba(60,73,85,0.8);
+    opacity: 0.8;
     background-blend-mode: multiply;
+}
+.about_text{
+    width: 416px;
+    float: right;
+    padding-right: 140px;
+    /*margin-right: 136px;*/
+}
+.text_name,
+.text_job,
+.text_discription{
+    display: block;
+}
+/*.text_name{*/
+    /*height: 20px}*/
+
+/*}*/
+.text_name,
+.text_job{
+    /*line-height: 32px;*/
+     color: rgb(255,255,255);
+     font-family: "Lato bold", sans-serif;
+
+}
+.text_name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+.text_job{
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+.text_discription{
+    width: 430px;
+    height: 144px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(255,255,255);
+    font-family: "Lato-Bold", sans-serif;
+}
+.about_button{
+    width: 152px;
+    height: 39px;
+    border-radius: 3px;
+    /*background-color: #fdf7fd;*/
+    border: 2px solid #3c4955;
+
+    font-size: 14px;
+    line-height: 25px;
+    /*color: rgb(60,73,85);*/
+    font-family: "Lato bold", sans-serif;
+    font-weight: bold;
+    /*border: 1px #33cc66 solid;*/
+    /*background-image: none;*/
+    background-color: transparent;
+    /*border-radius: 3px;*/
+    /*margin-top: 50px;*/
+    text-transform: uppercase;
+    color: #3c4955;
+    margin-top: 40px;
 }
